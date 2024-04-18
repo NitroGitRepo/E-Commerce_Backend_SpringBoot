@@ -6,7 +6,6 @@ import com.ecommerce.productservice.dtos.GetUserDto;
 import com.ecommerce.productservice.exceptions.NotFoundException;
 import com.ecommerce.productservice.models.Product;
 import lombok.Data;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
