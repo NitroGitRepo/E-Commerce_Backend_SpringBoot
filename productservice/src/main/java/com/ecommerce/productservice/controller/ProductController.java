@@ -8,13 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//junit
 @RestController
 @RequestMapping("/product")
 public class ProductController {
 
     //controller is the entry point for our application
-
            @GetMapping("/checking")
            public String checking(){
                return " Service running Fine";
